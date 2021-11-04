@@ -8,4 +8,5 @@ const firebaseConfig = {
 };
 
 const app = firebase.initializeApp(firebaseConfig);
+var db = firebase.firestore();
 console.log("Connection Established.............");

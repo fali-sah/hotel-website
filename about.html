@@ -24,6 +24,14 @@
         <!-- Main Stylesheet File -->
         <link href="css/hover-style.css" rel="stylesheet">
         <link href="css/style.css" rel="stylesheet">
+
+
+        <script src="https://www.gstatic.com/firebasejs/7.11.0/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/7.11.0/firebase-auth.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/7.11.0/firebase-database.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/7.11.0/firebase-storage.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/7.11.0/firebase-firestore.js"></script>
+
     </head>
 
     <body>
@@ -55,7 +63,8 @@
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas in mi libero. Quisque convallis, enim at venenatis tincidunt.
                     </p>
                 </div>
-                <div class="row">
+                <div id="allAbout">
+               <div class="row"> 
                     <div class="col-md-6 img-cols">
                         <div class="img-col">
                             <img class="img-fluid" src="img/about/about-1.jpg">
@@ -76,8 +85,10 @@
                 </div>
                 
                 <hr>
+
+            </div>
                 
-                <div class="row">
+                <!-- <div class="row">
                     <div class="col-md-6 img-cols d-block d-md-none">
                         <div class="img-col">
                             <img class="img-fluid" src="img/about/about-2.jpg">
@@ -100,9 +111,9 @@
                             <img class="img-fluid" src="img/about/about-2.jpg">
                         </div>
                     </div>
-                </div>
+                </div> -->
                 
-                <hr>
+                <!-- <hr>
                 
                 <div class="row">
                     <div class="col-md-6 img-cols">
@@ -124,7 +135,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
         <!-- About Section End -->
         
         <!-- Footer Section Start -->
@@ -164,6 +175,9 @@
         <script src="vendor/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
         
         <!-- Booking Javascript File -->
+        <Script src="./backend/connection.js"></Script>
+        <Script src="./backend/about.js"></Script>
+       
         <script src="js/booking.js"></script>
         <script src="js/jqBootstrapValidation.min.js"></script>
   
